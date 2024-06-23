@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <ul>
+            <li><a href="#landing">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Landing Page -->
+    <section id="landing">
+        <div class="intro">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Poorvi Panjwani, a passionate sophomore at IIT Guwahati.</p>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am Poorvi, a sophomore at the Indian Institute of Technology, Guwahati, demonstrating a proficiency for acquiring technical knowledge across a broad spectrum of disciplines. 
+            <br>
+            <br>My passion lies in the convergence of technology and business, with a particular interest in web development, consulting, analytics, finance, and product management.
+            <br>
+            <br>To cultivate my expertise in these areas, I have actively engaged in enriching coursework, including Hackstack'24, Winter Consulting'23, and Product Matters 4.0. 
+            <br>
+            <br>These experiences have equipped me with a foundational understanding of:
+            <br>
+            <br>
+            <li>Web Development: HTML, CSS, and JavaScript</li>
+            <br>
+            <li>Consulting: problem-solving, business process analysis, market entry strategy</li>
+            <br>
+            <li>Finance: derivativs (options), basics of stock market, bonds trading</li>
+            <br>
+            <br>I am a highly motivated individual with a thirst for knowledge and a dedication to continuous learning. 
+            <br>I am eager to leverage my skills and expertise to contribute meaningfully to a dynamic and innovative work environment.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-cards">
+            <!-- Example Project -->
+            <div class="project-card">
+                <img src="project1.png" alt="Project Image">
+                <h3>Tackling Food Wastage</h3>
+                <p>As a part of the inter hostel technical competition, our team designed and put forth a solution to tackle food wastage in the campus using inventory models.</p>
+                <a href="https://drive.google.com/file/d/1foDDvtjrxI6FPOrkSvmGitkZ70VXfnNS/view?usp=drive_link">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="project2.png" alt="Project Image">
+                <h3>Budget Bullseye</h3>
+                <p>As a part of the club recruitment process, with the given hypothetical budget, out team chose the best possible mid-cap stock and put forth the company essentials and competitor analysis</p>
+                <a href="https://drive.google.com/file/d/1TbPdFWHHzqfqeqyBZThRvQbW9-gQuwzD/view?usp=sharing">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="project3.png" alt="Project Image">
+                <h3>Market Entry Strategy for JSW Steel</h3>
+                <p>As a part of the club recruitment process, our team proposed a market entry stratgey for JSW Steel in the EV market using tools such as PESTEL Analysis and 3C's Model and Guesstimates.</p>
+                <a href="https://drive.google.com/file/d/18y1BnfZMyB14mOHNi8C65s2eYif2xsCW/view?usp=sharing">View Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+<!-- Skills Section -->
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skill">
+        <h3>HTML</h3>
+        <div class="progress-bar">
+            <div class="progress" style="width: 90%;"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <h3>CSS</h3>
+        <div class="progress-bar">
+            <div class="progress" style="width: 80%;"></div>
+        </div>
+    </div>
+    <div class="skill">
+        <h3>JavaScript</h3>
+        <div class="progress-bar">
+            <div class="progress" style="width: 75%;"></div>
+        </div>
+    </div>
+    <!-- Add more skills as needed -->
+    <a href="https://drive.google.com/file/d/1Bjp4cngj68UPeugEHb95hqsuu1N2oEc2/view?usp=drive_link" id="download-cv" download>Download CV</a>
+</section>
+
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="number" name="contact" placeholder="Mobile Number" required>
+            <textarea name="message" placeholder="Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Include JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>
