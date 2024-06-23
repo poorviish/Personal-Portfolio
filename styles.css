@@ -53,7 +53,7 @@ section:target {
 
 /* Landing Page Styles */
 #landing {
-    background: url('right_bg.png') no-repeat center center;
+    background: url('images/right_bg.png') no-repeat center center;
     background-size: cover;
     text-align: left bottom;
     padding: 100px 20px;
