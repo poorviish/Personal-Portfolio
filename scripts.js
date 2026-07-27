@@ -1,15 +1,11 @@
-// JavaScript for form validation
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-
-    const name = event.target.name.value;
-    const email = event.target.email.value;
-    const message = event.target.message.value;
-
-    if (name && email && message) {
-        alert('Message sent successfully!');
-        event.target.reset();
-    } else {
-        alert('Please fill in all fields.');
+// Scroll-reveal animation for sections
+const revealEls = document.querySelectorAll('.reveal');
+const io = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('is-visible');
+      io.unobserve(entry.target);
     }
-});
+  });
+}, { threshold: 0.12 });
+revealEls.forEach(el => io.observe(el));
