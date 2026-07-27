@@ -1,121 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poorvi Panjwani — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav id="navbar">
-        <ul>
-            <li><a href="#landing">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
 
-    <!-- Landing Page -->
-    <section id="landing">
-        <div class="intro">
-            <h1>Welcome to My Portfolio</h1>
-            <p>Hi, I'm Poorvi Panjwani, a passionate sophomore at IIT Guwahati.</p>
-        </div>
-    </section>
+<nav>
+  <div class="brand">Poorvi Panjwani</div>
+  <ul>
+    <li><a href="#work">Selected Work</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#how-i-work">How I Work</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-    <!-- About Me Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am Poorvi, a sophomore at the Indian Institute of Technology, Guwahati, demonstrating a proficiency for acquiring technical knowledge across a broad spectrum of disciplines. 
-            <br>
-            <br>My passion lies in the convergence of technology and business, with a particular interest in web development, consulting, analytics, finance, and product management.
-            <br>
-            <br>To cultivate my expertise in these areas, I have actively engaged in enriching coursework, including Hackstack'24, Winter Consulting'23, and Product Matters 4.0. 
-            <br>
-            <br>These experiences have equipped me with a foundational understanding of:
-            <br>
-            <br>
-            <li>Web Development: HTML, CSS, and JavaScript</li>
-            <br>
-            <li>Consulting: problem-solving, business process analysis, market entry strategy</li>
-            <br>
-            <li>Finance: derivativs (options), basics of stock market, bonds trading</li>
-            <br>
-            <br>I am a highly motivated individual with a thirst for knowledge and a dedication to continuous learning. 
-            <br>I am eager to leverage my skills and expertise to contribute meaningfully to a dynamic and innovative work environment.</p>
-    </section>
-
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-cards">
-            <!-- Example Project -->
-            <div class="project-card">
-                <img src="images/project1.png" alt="Project Image">
-                <h3>Tackling Food Wastage</h3>
-                <p>As a part of the inter-hostel technical competition, our team designed and put forth a solution to tackle food wastage in the campus using inventory models.</p>
-                <a href="https://drive.google.com/file/d/1foDDvtjrxI6FPOrkSvmGitkZ70VXfnNS/view?usp=drive_link">View Project</a>
-            </div>
-            <div class="project-card">
-                <img src="images/project2.png" alt="Project Image">
-                <h3>Budget Bullseye</h3>
-                <p>As a part of the club recruitment process, with the given hypothetical budget, out team chose the best possible mid-cap stock and put forth the company essentials and competitor analysis</p>
-                <a href="https://drive.google.com/file/d/1TbPdFWHHzqfqeqyBZThRvQbW9-gQuwzD/view?usp=sharing">View Project</a>
-            </div>
-            <div class="project-card">
-                <img src="images/project3.png" alt="Project Image">
-                <h3>Market Entry Strategy for JSW Steel</h3>
-                <p>As a part of the club recruitment process, our team proposed a market entry stratgey for JSW Steel in the EV market using tools such as PESTEL Analysis and 3C's Model and Guesstimates.</p>
-                <a href="https://drive.google.com/file/d/18y1BnfZMyB14mOHNi8C65s2eYif2xsCW/view?usp=sharing">View Project</a>
-            </div>
-            <!-- Add more projects as needed -->
-        </div>
-    </section>
-
-<!-- Skills Section -->
-<section id="skills">
-    <h2>Skills</h2>
-    <div class="skill">
-        <h3>HTML</h3>
-        <div class="progress-bar">
-            <div class="progress" style="width: 90%;"></div>
-        </div>
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="hero-grid">
+    <div>
+      <div class="hero-eyebrow">Product · Business · Data</div>
+      <h1>Poorvi Panjwani</h1>
+      <p class="statement">I turn ambiguous problems into products, strategies, and data-driven decisions.</p>
+      <div class="label-row">
+        <span>PRODUCT</span>
+        <span>DATA</span>
+        <span>STRATEGY</span>
+        <span>BUILDING</span>
+      </div>
+      <p class="summary draft">Add a 2–3 sentence paragraph here — who you are, the throughline across your work, and what you're looking for next.</p>
     </div>
-    <div class="skill">
-        <h3>CSS</h3>
-        <div class="progress-bar">
-            <div class="progress" style="width: 80%;"></div>
-        </div>
+
+    <div class="photo-frame">
+      <span>Add your photo here</span>
+      <span class="small">4:5 portrait · replace this div's contents with an &lt;img&gt; tag</span>
+      <!-- Example: <img src="images/profile.jpg" alt="Poorvi Panjwani"> -->
     </div>
-    <div class="skill">
-        <h3>JavaScript</h3>
-        <div class="progress-bar">
-            <div class="progress" style="width: 75%;"></div>
-        </div>
-    </div>
-    <!-- Add more skills as needed -->
-    <a href="https://drive.google.com/file/d/1fJ4LJopvwVocbvBhXJ_v7SrhgmKYQ0Xu/view?usp=sharing" id="download-cv" download>Download CV</a>
+  </div>
+
+  <!-- ===== RECOGNIZED AT ===== -->
+  <div class="recognized-at">
+    <span class="rec-label">RECOGNIZED AT</span>
+    <span class="rec-names">IIT Bombay · IIM Calcutta · Inter-IIT · CBS Copenhagen · IIT Guwahati</span>
+  </div>
 </section>
 
+<!-- ================= BEYOND THE RESUME ================= -->
+<section id="beyond" class="reveal">
+  <div class="section-head k-warm">
+    <div>
+      <span class="kicker">Beyond the Resume</span>
+      <h2>A little more about me</h2>
+    </div>
+  </div>
+  <div class="personal-block">
+    <div>
+      <span class="mono" style="font-size:0.72rem;color:var(--muted);">100–150 WORDS</span>
+    </div>
+    <div>
+      <p class="draft">Add why you gravitate toward ambiguous problems.</p>
+      <p class="draft">Add your transition from Chemical Science &amp; Technology into product/data/strategy.</p>
+      <p class="draft">Add what you enjoy building, and what you're currently exploring.</p>
+      <div class="exploring-tags">
+        <span>Currently reading —</span>
+        <span>Currently exploring —</span>
+      </div>
+    </div>
+  </div>
+</section>
 
+<!-- ================= SELECTED WORK ================= -->
+<section id="work" class="reveal">
+  <div class="section-head k-teal">
+    <div>
+      <span class="kicker">Selected Work</span>
+      <h2>Case studies &amp; projects</h2>
+      <p class="draft">Add a one-line intro on how you pick and approach projects.</p>
+    </div>
+  </div>
 
-    
-    <!-- Contact Form -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form id="contact-form">
-            <input type="text" name="name" placeholder="Name" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="number" name="contact" placeholder="Mobile Number" required>
-            <textarea name="message" placeholder="Message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
-    </section>
+  <!-- TIER 1: FEATURED -->
+  <div class="featured-card">
+    <div class="featured-visual">
+      <div class="tag-chip">Bronze Medal · Inter IIT Tech Meet</div>
+      <div class="doc">
+        <div class="line title"></div>
+        <div class="line w60"></div>
+        <div class="line w40"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="featured-body">
+      <span class="fb-kicker">Product · Fintech</span>
+      <h3>Vortex — Integrated Portfolio Management Platform</h3>
+      <p class="draft">Add a 2–3 line summary of the problem, your role, and the approach.</p>
+      <div class="impact-row">
+        <span>93% loss rate diagnosed</span>
+        <span>200+ survey responses</span>
+        <span>93% faster KYC</span>
+      </div>
+      <a class="view-link" href="#">View case study →</a>
+    </div>
+  </div>
 
-    <!-- Include JavaScript -->
-    <script src="scripts.js"></script>
+  <!-- TIER 2: SELECTED PROJECTS (4) -->
+  <div class="project-grid">
+    <div class="project-card">
+      <span class="p-tagline">Data Analytics · Policy</span>
+      <h4>Workplace Mental Health — Cross-Country Analytics &amp; Policy</h4>
+      <p class="draft">Add a 1–2 line summary of the dataset, method, and recommendation.</p>
+      <span class="p-status">Judges' Choice · Techevince 12.0</span>
+      <a class="view-project" href="#">View project →</a>
+    </div>
+
+    <div class="project-card">
+      <span class="p-tagline">Business Strategy · Case Competition</span>
+      <h4>Axis Moves 2026 — Axis Bank Case Competition</h4>
+      <p class="draft">Add a 1–2 line summary, update once results are out.</p>
+      <span class="p-status">In progress</span>
+      <a class="view-project" href="#">View project →</a>
+    </div>
+
+    <div class="project-card">
+      <span class="p-tagline">Product Strategy · Retail</span>
+      <h4>Knot — Product Strategy for a Fashion Delivery Platform</h4>
+      <p class="draft">Add a 1–2 line summary of the product gap and your prioritized fix.</p>
+      <span class="p-status">National Finalist · IIT Bombay</span>
+      <a class="view-project" href="#">View project →</a>
+    </div>
+
+    <div class="project-card">
+      <span class="p-tagline">Market Strategy · Energy</span>
+      <h4>Market Expansion Strategy for European Energy</h4>
+      <p class="draft">Add a 1–2 line summary of the market opportunity and your recommended entry approach.</p>
+      <span class="p-status">Global Top 20% · CBS Copenhagen</span>
+      <a class="view-project" href="#">View project →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience" class="reveal">
+  <div class="section-head k-teal">
+    <div>
+      <span class="kicker">Experience</span>
+      <h2>Where I've worked</h2>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-head">
+      <div class="exp-role">Product &amp; Strategy Intern</div>
+      <div class="exp-date">May 2026 — Jul 2026</div>
+    </div>
+    <div class="exp-org">Livlong 365 — IIFL Corporate Services</div>
+    <p class="exp-intro draft">Add one line framing the role — e.g. "Worked at the intersection of healthcare operations, product design, and AI."</p>
+    <div class="exp-sub">WHAT I WORKED ON</div>
+    <ul>
+      <li class="draft">Add a bullet — problem you addressed + method used</li>
+      <li class="draft">Add a bullet — decision you influenced</li>
+      <li class="draft">Add a bullet — deliverable shipped</li>
+    </ul>
+    <div class="exp-sub">IMPACT</div>
+    <div class="impact-row">
+      <span>63%+ TAT reduction</span>
+      <span>20+ AI interventions</span>
+      <span>100+ hospitals</span>
+    </div>
+  </div>
+
+  <div class="exp-item">
+    <div class="exp-head">
+      <div class="exp-role">Founder's Office Strategy Fellow</div>
+      <div class="exp-date">Jan 2026 — Mar 2026</div>
+    </div>
+    <div class="exp-org">GSC Partners</div>
+    <p class="exp-intro draft">Add one line framing the role.</p>
+    <div class="exp-sub">WHAT I WORKED ON</div>
+    <ul>
+      <li class="draft">Add a bullet — zero-to-one initiative you led</li>
+      <li class="draft">Add a bullet — metric you moved + how</li>
+      <li class="draft">Add a bullet — strategic output</li>
+    </ul>
+    <div class="exp-sub">IMPACT</div>
+    <div class="impact-row">
+      <span>15% subscriber growth</span>
+      <span>20+ A/B experiments</span>
+      <span>Top 6% globally</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= HOW I WORK ================= -->
+<section id="how-i-work" class="reveal">
+  <div class="section-head k-warm">
+    <div>
+      <span class="kicker">Toolkit</span>
+      <h2>How I work</h2>
+      <p class="draft">Add an intro line — your process, in four stages.</p>
+    </div>
+  </div>
+
+  <div class="work-grid">
+    <div class="work-card">
+      <span class="w-num">01</span>
+      <h4>Discover</h4>
+      <div class="w-tags">
+        <span>User Research</span>
+        <span>Problem Framing</span>
+        <span>Data Analysis</span>
+      </div>
+      <a class="see-examples" href="#work">See examples →</a>
+    </div>
+    <div class="work-card">
+      <span class="w-num">02</span>
+      <h4>Decide</h4>
+      <div class="w-tags">
+        <span>Prioritization</span>
+        <span>Experimentation</span>
+        <span>Business Cases</span>
+      </div>
+      <a class="see-examples" href="#work">See examples →</a>
+    </div>
+    <div class="work-card">
+      <span class="w-num">03</span>
+      <h4>Build</h4>
+      <div class="w-tags">
+        <span>Prototyping</span>
+        <span>Product Specs</span>
+        <span>Roadmaps</span>
+      </div>
+      <a class="see-examples" href="#work">See examples →</a>
+    </div>
+    <div class="work-card">
+      <span class="w-num">04</span>
+      <h4>Measure</h4>
+      <div class="w-tags">
+        <span>SQL</span>
+        <span>Python</span>
+        <span>Dashboards</span>
+      </div>
+      <a class="see-examples" href="#work">See examples →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= RECOGNITION (detailed) ================= -->
+<section id="recognition" class="reveal">
+  <div class="section-head k-teal">
+    <div>
+      <span class="kicker">Recognition</span>
+      <h2>Selected results</h2>
+    </div>
+  </div>
+  <div class="recognition-detail">
+    <div class="rec-row">
+      <div class="rec-title">Bronze Medal — Inter IIT Tech Meet</div>
+      <p class="draft">Add one line on what the competition was and why this result mattered to you.</p>
+    </div>
+    <div class="rec-row">
+      <div class="rec-title">National Finalist — IIT Bombay</div>
+      <p class="draft">Add one line of context.</p>
+    </div>
+    <div class="rec-row">
+      <div class="rec-title">Global Top 20% — CBS Copenhagen</div>
+      <p class="draft">Add one line of context.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT / FOOTER ================= -->
+<footer id="contact" class="reveal">
+  <h2>Let's talk.</h2>
+  <div class="links">
+    <a href="mailto:p.poorvi@iitg.ac.in">Email</a>
+    <a href="https://linkedin.com/in/poorvi-iitg">LinkedIn</a>
+    <a href="https://github.com/poorviish">GitHub</a>
+    <a href="#">Resume PDF</a>
+  </div>
+  <div class="fine-print">
+    <span>© Poorvi Panjwani</span>
+    <span class="draft" style="color:rgba(255,255,255,0.45);">Last updated — add a month/year here and update it periodically</span>
+  </div>
+</footer>
+
+<script src="scripts.js"></script>
 </body>
 </html>
