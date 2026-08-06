@@ -14,7 +14,7 @@ I turn ambiguous problems into products, strategies, and data-driven decisions.
 
 ## About
 
-I'm a student at IIT Guwahati working at the intersection of product thinking, data analysis, and business strategy. This site is where I bring together the case studies, projects, and experience that don't fully fit into a resume.
+I'm a final year student at IIT Guwahati pursuing my B.Tech in Chemical Science and Technology. I am working at the intersection of product thinking, data analysis, and business strategy. This site is where I bring together the case studies, projects, and experience that don't fully fit into a resume.
 
 ## What's inside
 
@@ -24,14 +24,10 @@ I'm a student at IIT Guwahati working at the intersection of product thinking, d
 - **Recognition** — results from national and global case competitions
 - Ways to get in touch
 
-## Built with
-
-`HTML` · `CSS` · `JavaScript` — no framework, no build step, hosted free on GitHub Pages.
-
 ## Get in touch
 
 [Email](mailto:p.poorvi@iitg.ac.in) · [LinkedIn](https://linkedin.com/in/poorvi-iitg) · [GitHub](https://github.com/poorviish)
 
 ---
 
-<sub>Last updated — add a month/year here and update it periodically</sub>
+<sub>Last updated — Aug 2026</sub>
